@@ -3,7 +3,8 @@
 def countdown(numbah)
   
   while numbah >= 0
-    puts ""
+    puts "#{numbah} second!"
+    numbah -= 1
   end
   
 end
