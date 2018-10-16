@@ -3,7 +3,7 @@
 def countdown(numbah)
   
   while numbah > 0
-    puts "#{numbah} seconds!"
+    puts "#{numbah} SECOND(S)!"
     numbah -= 1
   end
   "HAPPY NEW YEAR!"
