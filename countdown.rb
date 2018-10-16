@@ -6,14 +6,10 @@ def countdown(numbah)
     puts "#{numbah} SECOND(S)!"
     numbah -= 1
   end
+  countdown_with_sleep(numbah)
   "HAPPY NEW YEAR!"
 end
 
 def countdown_with_sleep(seconds)
-  
-  while time < time + 1 second
-    
-  
-    seconds -= 0
-  end
+ sleep seconds
 end
